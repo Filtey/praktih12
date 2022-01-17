@@ -18,6 +18,13 @@ namespace laba12program
             {
                 Console.WriteLine(a - b);
             }
+
+            if (menu == "Ввести А")
+            {
+                a = int.Parse(Console.ReadLine());
+            }
+           
+
         }
     }
 }
