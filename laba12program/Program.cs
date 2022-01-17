@@ -11,6 +11,13 @@ namespace laba12program
         static void Main(string[] args)
         {
             Console.WriteLine("Ввести А\nВвести В\nвыполнить операцию '+'\nВыполнить операцию '-'\nВыполнить операцию '*'\nВыполнить операцию '/'\n");
+            string menu = Console.ReadLine();
+            int a = 0, b = 0; 
+            if (menu == "Ввести А")
+            {
+                a = int.Parse(Console.ReadLine());
+            }
+           
         }
     }
 }
