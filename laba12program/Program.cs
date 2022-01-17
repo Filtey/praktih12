@@ -12,21 +12,31 @@ namespace laba12program
         {
             Console.WriteLine("Ввести А\nВвести В\nвыполнить операцию '+'\nВыполнить операцию '-'\nВыполнить операцию '*'\nВыполнить операцию '/'\n");
             string menu = Console.ReadLine();
-            int a = 0, b = 0;
-
-            if (menu == "Выполнить операцию '-'")
-            {
-                Console.WriteLine(a - b);
-            }
+            int a = 0, b = 0;         
 
             if (menu == "Ввести А")
             {
                 a = int.Parse(Console.ReadLine());
             }
-
             if (menu == "Ввести В")
             {
                 b = int.Parse(Console.ReadLine());
+            }
+            if (menu == "Выполнить операцию '-'")
+            {
+                Console.WriteLine(a - b);
+            }
+            if (menu == "Выполнить операцию '+'")
+            {
+                Console.WriteLine(a + b);
+            }
+            if (menu == "Выполнить операцию '*'")
+            {
+                Console.WriteLine(a * b);
+            }
+            if (menu == "Выполнить операцию '/'")
+            {
+                Console.WriteLine(a / b);
             }
         }
     }
