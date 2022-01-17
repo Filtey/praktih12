@@ -23,8 +23,11 @@ namespace laba12program
             {
                 a = int.Parse(Console.ReadLine());
             }
-           
 
+            if (menu == "Ввести В")
+            {
+                b = int.Parse(Console.ReadLine());
+            }
         }
     }
 }
